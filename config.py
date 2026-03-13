@@ -9,9 +9,6 @@ class Config(object):
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'ENTER_BLOB_STORAGE_KEY'
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'ENTER_IMAGES_CONTAINER_NAME'
 
-    import os
- 
-basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
@@ -21,7 +18,7 @@ class Config(object):
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'ENTER_IMAGES_CONTAINER_NAME'
 
     SQL_SERVER = 'cmsshazia92173.database.windows.net'
-    SQL_DATABASE = 'free-sql-db-4925829 '
+    SQL_DATABASE = 'free-sql-db-4925829'
     SQL_USER_NAME = 'azureadmin'
     SQL_PASSWORD = 'Shafreen0205@'
 
