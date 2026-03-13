@@ -20,13 +20,13 @@ class Config(object):
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'ENTER_BLOB_STORAGE_KEY'
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'ENTER_IMAGES_CONTAINER_NAME'
 
-   SQL_SERVER = 'cmsshazia92173.database.windows.net'
-   SQL_DATABASE = 'free-sql-db-4925829 '
-   SQL_USER_NAME = 'azureadmin'
-   SQL_PASSWORD = 'YOUR_SQL_PASSWORD'
+    SQL_SERVER = 'cmsshazia92173.database.windows.net'
+    SQL_DATABASE = 'free-sql-db-4925829 '
+    SQL_USER_NAME = 'azureadmin'
+    SQL_PASSWORD = 'YOUR_SQL_PASSWORD'
 
-   SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE + '?driver=ODBC+Driver+17+for+SQL+Server'
-   SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE + '?driver=ODBC+Driver+17+for+SQL+Server'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
 
