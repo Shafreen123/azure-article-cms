@@ -23,7 +23,7 @@ class Config(object):
     SQL_SERVER = 'cmsshazia92173.database.windows.net'
     SQL_DATABASE = 'free-sql-db-4925829 '
     SQL_USER_NAME = 'azureadmin'
-    SQL_PASSWORD = 'YOUR_SQL_PASSWORD'
+    SQL_PASSWORD = 'Shafreen0205@'
 
     SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE + '?driver=ODBC+Driver+17+for+SQL+Server'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
