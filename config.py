@@ -38,11 +38,4 @@ class Config(object):
     SCOPE = []
     SESSION_TYPE = "filesystem"
 
-    ### Info for MS Authentication ###
-    CLIENT_ID = os.environ.get('CLIENT_ID') or 'ENTER_CLIENT_ID_HERE'
-    CLIENT_SECRET = os.environ.get('CLIENT_SECRET') or 'ENTER_CLIENT_SECRET_HERE'
-    AUTHORITY = os.environ.get('AUTHORITY') or 'https://login.microsoftonline.com/b3641256-9fb9-4fa6-b862-670627210539'
-    REDIRECT_PATH = os.environ.get('REDIRECT_PATH') or '/getAToken'
-
-    SCOPE = []
-    SESSION_TYPE = "filesystem"
+    
